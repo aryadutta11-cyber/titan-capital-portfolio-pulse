@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-07-03T00:00:00.000Z",
+  "companies": [
+    { "slug": "razorpay", "news": null, "founderMentions": null, "appRanks": null },
+    { "slug": "ola", "news": null, "founderMentions": null, "appRanks": null },
+    { "slug": "urban-company", "news": null, "founderMentions": null, "appRanks": null },
+    { "slug": "mamaearth", "news": null, "founderMentions": null, "appRanks": null },
+    { "slug": "jupiter", "news": null, "founderMentions": null, "appRanks": null },
+    { "slug": "khatabook", "news": null, "founderMentions": null, "appRanks": null },
+    { "slug": "bewakoof", "news": null, "founderMentions": null, "appRanks": null },
+    { "slug": "park-plus", "news": null, "founderMentions": null, "appRanks": null },
+    { "slug": "teachmint", "news": null, "founderMentions": null, "appRanks": null },
+    { "slug": "netmeds", "news": null, "founderMentions": null, "appRanks": null }
+  ]
+}

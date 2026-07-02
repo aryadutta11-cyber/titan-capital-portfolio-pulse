@@ -1,7 +1,7 @@
-# Elevation Portfolio Pulse
+# Titan Capital Portfolio Pulse
 
 A static dashboard tracking public momentum signals — news coverage,
-founder mentions, and app-store rank — across 10 Elevation Capital
+founder mentions, and app-store rank — across 10 Titan Capital
 portfolio companies. Built as a portfolio piece for a VC-adjacent
 interview.
 
@@ -34,4 +34,5 @@ npm run build
 ```
 
 This produces a static export in `out/`, deployable to Vercel's free
-Hobby tier (or any static host).
+Hobby tier (or any static host). This repo's root *is* the Next.js
+app root, so no Root Directory override is needed at Vercel import time.
