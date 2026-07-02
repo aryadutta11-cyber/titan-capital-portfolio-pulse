@@ -154,7 +154,7 @@ export function CompanyDetailView({
         <div className="flex items-start justify-between gap-4">
           <div className="flex items-center gap-4">
             {/* Monogram roundel — same language as the dashboard cards */}
-            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-tc-glass-1/20 bg-gradient-to-br from-tc-blue/25 to-tc-blue/5 text-2xl font-semibold text-tc-glass-2 shadow-[inset_0_1px_0_rgba(235,241,250,0.15)]">
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-tc-glass-1/20 bg-gradient-to-br from-tc-blue/25 to-tc-blue/5 text-2xl font-semibold text-tc-glass-2 shadow-[inset_0_1px_0_rgba(243,240,230,0.15)]">
               {company.name.charAt(0)}
             </div>
             <h1 className="text-gradient-brand text-4xl font-bold tracking-tight sm:text-5xl">

@@ -49,7 +49,7 @@ export function CompanyCard({
           <div className="flex items-start justify-between gap-3">
             <div className="flex items-center gap-3.5">
               {/* Monogram roundel */}
-              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-tc-glass-1/20 bg-gradient-to-br from-tc-blue/25 to-tc-blue/5 text-base font-semibold text-tc-glass-2 shadow-[inset_0_1px_0_rgba(235,241,250,0.15)]">
+              <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-tc-glass-1/20 bg-gradient-to-br from-tc-blue/25 to-tc-blue/5 text-base font-semibold text-tc-glass-2 shadow-[inset_0_1px_0_rgba(243,240,230,0.15)]">
                 {name.charAt(0)}
               </div>
               <h3 className="text-lg font-semibold leading-snug tracking-tight text-tc-cream">
