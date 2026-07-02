@@ -1,15 +1,672 @@
 {
-  "generatedAt": "2026-07-03T00:00:00.000Z",
+  "generatedAt": "2026-07-02T22:09:55.480Z",
   "companies": [
-    { "slug": "razorpay", "news": null, "founderMentions": null, "appRanks": null },
-    { "slug": "ola", "news": null, "founderMentions": null, "appRanks": null },
-    { "slug": "urban-company", "news": null, "founderMentions": null, "appRanks": null },
-    { "slug": "mamaearth", "news": null, "founderMentions": null, "appRanks": null },
-    { "slug": "jupiter", "news": null, "founderMentions": null, "appRanks": null },
-    { "slug": "khatabook", "news": null, "founderMentions": null, "appRanks": null },
-    { "slug": "bewakoof", "news": null, "founderMentions": null, "appRanks": null },
-    { "slug": "park-plus", "news": null, "founderMentions": null, "appRanks": null },
-    { "slug": "teachmint", "news": null, "founderMentions": null, "appRanks": null },
-    { "slug": "netmeds", "news": null, "founderMentions": null, "appRanks": null }
+    {
+      "slug": "razorpay",
+      "news": [
+        {
+          "title": "India's Razorpay confidentially files papers for $600 million IPO, source says",
+          "url": "https://www.reuters.com/world/india/indias-razorpay-files-ipo-papers-confidentially-2026-06-15/",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Indian Payment FinTech Razorpay Planning $600 Million IPO",
+          "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/indian-payment-fintech-razorplay-planning-600-million-ipo/",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Razorpay modernises NetBanking with NBBL",
+          "url": "https://ibsintelligence.com/ibsi-news/razorpay-modernises-netbanking-with-nbbl/",
+          "publishedAt": "15 hours ago"
+        },
+        {
+          "title": "Razorpay Confidentially Files for $500 Million India IPO Draft",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/razorpay-confidentially-files-for-500-million-india-ipo",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Razorpay Quietly Filed For An IPO In India",
+          "url": "https://finimize.com/content/razorpay-quietly-filed-for-an-ipo-in-india",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Razorpay partners with NBBL to launch mobile-first netbanking solution",
+          "url": "https://www.cnbctv18.com/business/finance/razorpay-partners-with-nbbl-to-launch-mobile-first-netbanking-solution-19936341.htm",
+          "publishedAt": "1 day ago"
+        },
+        {
+          "title": "OAuth tokens have become the new invisible attack perimeter in enterprise cybersecurity: Razorpay CISO Prave..",
+          "url": "https://ciso.economictimes.indiatimes.com/news/cybercrime-fraud/razorpay-ciso-exposes-the-new-identity-driven-threat-in-cybersecurity-oauth-tokens/131990911",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "Razorpay partners OpenAI to enable payments in Codex-built apps",
+          "url": "https://www.electronicpaymentsinternational.com/news/razorpay-partners-openai/",
+          "publishedAt": "Apr 7, 2026"
+        },
+        {
+          "title": "How Will Razorpay Simplify NetBanking in India?",
+          "url": "https://analyticsindiamag.com/ai-news/razorpay-partners-with-npci-bharat-billpay-to-launch-banking-connect-for-netbanking",
+          "publishedAt": "1 day ago"
+        },
+        {
+          "title": "Razorpay partners OpenAI to enable payments in Codex-built apps",
+          "url": "https://www.electronicpaymentsinternational.com/news/razorpay-partners-openai/",
+          "publishedAt": "Apr 7, 2026"
+        },
+        {
+          "title": "India's Razorpay Software Files For IPO Via Confidential Route - Newspaper Ad",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN42K0LK:0-india-s-razorpay-software-files-for-ipo-via-confidential-route-newspaper-ad/",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Sarvam’s Unicorn Leap, Razorpay Files DRHP & More",
+          "url": "https://inc42.com/buzz/sarvams-unicorn-leap-razorpay-files-drhp-more/",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Razorpay Elevates Apuarv Sethi to CMO, Expanding Role to Southeast Asia",
+          "url": "https://www.brandinginasia.com/razorpay-elevates-apuarv-sethi-to-cmo-expanding-role-to-southeast-asia/",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "Razorpay Partners with NBBL to Transform NetBanking for Mobile First Consumers",
+          "url": "https://digitalterminal.in/amp/story/tech-companies/razorpay-partners-with-nbbl-to-transform-netbanking-for-mobile-first-consumers",
+          "publishedAt": "17 hours ago"
+        },
+        {
+          "title": "Cross-border payments’ complexity is fintechs’ moat, says Razorpay’s Arif Khan",
+          "url": "https://bfsi.economictimes.indiatimes.com/articles/razorpays-arif-khan-discusses-the-future-of-fintech-in-cross-border-payments/131826232",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Fynd partners with Razorpay for omnichannel commerce, payments integration",
+          "url": "https://enterpriseai.economictimes.indiatimes.com/news/industry/fynd-partners-with-razorpay-for-omnichannel-commerce-payments-integration/131971425",
+          "publishedAt": "1 week ago"
+        }
+      ],
+      "founderMentions": [],
+      "appRanks": [
+        {
+          "platform": "ios",
+          "rank": null,
+          "rating": 4.55651,
+          "fetchedAt": "2026-07-02T22:09:19.852Z"
+        },
+        {
+          "platform": "android",
+          "rank": null,
+          "rating": 3.9902387,
+          "fetchedAt": "2026-07-02T22:09:19.852Z"
+        }
+      ]
+    },
+    {
+      "slug": "ola",
+      "news": [
+        {
+          "title": "Bengaluru man spots 40 people waiting for Uber while Ola cabs sit idle, shares reason",
+          "url": "https://www.indiatoday.in/trending-news/story/bengaluru-man-spots-40-people-waiting-for-uber-while-ola-cabs-sit-idle-shares-reason-2928920-2026-06-18",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Meru Cabs Withdraws 7-Year-Old Predatory Pricing Appeal Against Ola, Uber",
+          "url": "https://inc42.com/buzz/meru-cabs-withdraws-7-year-old-predatory-pricing-appeal-against-ola-uber/",
+          "publishedAt": "1 day ago"
+        },
+        {
+          "title": "Ola Cabs pushed off Chandigarh roads for 6 months",
+          "url": "https://www.tribuneindia.com/news/chandigarh/ola-cabs-pushed-off-chandigarh-roads-for-6-months/",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Ola Cabs FY25 loss widens as consolidated revenue falls, filing data shows",
+          "url": "https://www.goodreturns.in/news/ola-cabs-ani-technologies-fy25-loss-widens-as-revenue-falls-011-1507129.html",
+          "publishedAt": "2 days ago"
+        },
+        {
+          "title": "Vanguard slashes Ola Consumer valuation to $70 million",
+          "url": "https://www.moneycontrol.com/news/business/startup/vanguard-slashes-ola-consumer-valuation-to-70-million-13940759.html",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "Ola Cabs Loss Widens To ₹662.4 Crore In FY25",
+          "url": "https://www.outlookbusiness.com/corporate/ola-cabs-loss-widens-to-6624-crore-in-fy25",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "‘People pay more to avoid uncertainty’: Uber vs Ola post on LinkedIn sparks debate",
+          "url": "https://www.storyboard18.com/trending/people-pay-more-to-avoid-uncertainty-uber-vs-ola-post-on-linkedin-sparks-debate-101596.htm",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Green SM EV cab service now in India! Ola, Uber rival details",
+          "url": "https://timesofindia.indiatimes.com/auto/news/green-sm-ev-cab-service-now-in-india-ola-uber-rival-details/articleshow/131524653.cms",
+          "publishedAt": "4 weeks ago"
+        },
+        {
+          "title": "Ola Cabs FY25 Loss Crashes To Rs 662 Cr, Revenue Slumps 42%",
+          "url": "https://www.bwdisrupt.com/article/ola-cabs-fy25-loss-crashes-to-rs-662-cr-revenue-slumps-42-606268",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "No resources to fight in court: Meru withdraws predatory pricing case against Ola, Uber",
+          "url": "https://www.barandbench.com/news/litigation/no-resources-to-fight-in-court-meru-withdraws-predatory-pricing-case-against-ola-uber",
+          "publishedAt": "1 day ago"
+        },
+        {
+          "title": "MBA grad leaves ₹25 LPA corporate job to drive Ola cabs, now earns ₹1.5 lakh a month: 'Kya socha tha, kya ban gaya' | Trending",
+          "url": "https://www.hindustantimes.com/trending/mba-grad-leaves-rs-25-lpa-corporate-job-to-drive-ola-cabs-now-earns-rs-1-5-lakh-a-month-kya-socha-tha-kya-ban-gaya-101780308036881.html",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "‘Don’t book Ola rides,’ Chandigarh administration tells cab users",
+          "url": "https://indianexpress.com/article/cities/chandigarh/dont-book-ola-rides-chandigarh-administration-tells-cab-users-10745688/",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Ola Consumer valuation collapses to $70 million after Vanguard markdown",
+          "url": "https://www.dtnext.in/news/business/ola-consumer-valuation-collapses-to-70-million-after-vanguard-markdown",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "Ola Cabs Loss Widens to Rs 662.4 Cr in FY25",
+          "url": "https://money.rediff.com/news/market/ola-cabs-loss-widens-to-rs-662-4-cr-in-fy25/46697720260508",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "OLA Cabs Banned In Chandigarh For Six Months",
+          "url": "https://www.etvbharat.com/en/bharat/ola-cabs-banned-in-chandigarh-for-six-months-enn26061804049",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Ola's Ride-Hailing Business Worth Less Than The Ola Electric Shares It Holds After 99% Valuation Cut",
+          "url": "https://www.ndtvprofit.com/markets/olas-parent-now-worth-less-than-the-ola-electric-shares-it-holds-after-99-valuation-cut-11589181",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "Ola Cabs’ revenue plunges 42% to Rs 1,171 Cr in FY25; losses double",
+          "url": "https://entrackr.com/fintrackr/ola-cabs-revenue-plunges-42-to-rs-1171-cr-in-fy25-losses-double-11810114",
+          "publishedAt": "May 7, 2026"
+        },
+        {
+          "title": "Low airport cab fares push drivers away from Ola, Uber kiosks at Bengaluru's KIA",
+          "url": "https://www.deccanherald.com/india/karnataka/bengaluru/low-airport-cab-fares-push-drivers-away-from-ola-uber-kiosks-at-bengalurus-kia-3993731",
+          "publishedAt": "May 6, 2026"
+        },
+        {
+          "title": "Why Chandigarh has suspended Ola for 6 months, what it means for riders and drivers, and why other aggregators are now under scrutiny",
+          "url": "https://www.tribuneindia.com/news/chandigarh/why-chandigarh-has-suspended-ola-for-6-months-what-it-means-for-riders-and-drivers-and-why-other-aggregators-are-now-under-scrutiny/",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Ola Consumer begins IPO process despite revenue decline and surge in losses",
+          "url": "https://entrackr.com/news-analysis/ola-consumer-begins-ipo-process-despite-revenue-decline-and-surge-in-losses-11812352",
+          "publishedAt": "1 month ago"
+        }
+      ],
+      "founderMentions": [],
+      "appRanks": [
+        {
+          "platform": "ios",
+          "rank": null,
+          "rating": 4.58746,
+          "fetchedAt": "2026-07-02T22:09:24.690Z"
+        },
+        {
+          "platform": "android",
+          "rank": null,
+          "rating": 4.620803,
+          "fetchedAt": "2026-07-02T22:09:24.690Z"
+        }
+      ]
+    },
+    {
+      "slug": "urban-company",
+      "news": [
+        {
+          "title": "Enterprise value to revenue forward of Urban Company Limited – NSE:URBANCO",
+          "url": "https://www.tradingview.com/symbols/NSE-URBANCO/financials-statistics-and-ratios/enterprise-value-sales-fwd/",
+          "publishedAt": "5 days ago"
+        },
+        {
+          "title": "Zomato, Zepto, Swiggy, Urban Company, Porter Challenge Karnataka Gig Workers Act",
+          "url": "https://www.rediff.com/business/report/zomato-zepto-swiggy-urban-company-porter-challenge-karnataka-gig-workers-act/20260701.htm",
+          "publishedAt": "1 day ago"
+        },
+        {
+          "title": "Urban Company approves financial statements at 12th AGM",
+          "url": "https://scanx.trade/stock-market-news/companies/urban-company-approves-financial-statements-at-12th-agm/44362040",
+          "publishedAt": "2 days ago"
+        },
+        {
+          "title": "Why Zomato, Rapido, Urban Company have moved HC against Karnataka’s new welfare law for gig workers",
+          "url": "https://theprint.in/judiciary/why-zomato-rapido-urban-company-have-moved-hc-against-karnatakas-new-welfare-law-for-gig-workers/2974733/",
+          "publishedAt": "1 day ago"
+        },
+        {
+          "title": "Is Convenience Worth The Price? Rs 350 Urban Company Haircut Compared To Rs 60 Salon Visit Sparks Debate",
+          "url": "https://www.ndtvprofit.com/trending/is-convenience-worth-the-price-rs-350-urban-company-haircut-compared-to-rs-60-salon-visit-11634237",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Urban Company to keep InstaHelp cash burn high as it prioritises scale",
+          "url": "https://www.storyboard18.com/brand-marketing/urban-company-to-keep-instahelp-cash-burn-high-as-it-prioritises-scale-100500.htm",
+          "publishedAt": "3 weeks ago"
+        },
+        {
+          "title": "Urban Company Share Price Jumps 16%: SBI MF Buys ₹632 Cr Stake",
+          "url": "https://www.sahi.com/blogs/urban-company-share-price-jumps-16-what-s-driving-the-sudden-surge",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "'Meri Job Cancel Kar Di': Urban Company Worker Breaks Down, Says Customer 'Pushed' Her Out After Partial Se",
+          "url": "https://www.news18.com/viral/meri-job-cancel-kar-di-urban-company-worker-breaks-down-says-customer-pushed-her-out-after-partial-service-ws-l-10163852.html",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "Why India's lucrative help at home job market comes with a warning",
+          "url": "https://theweek.com/world-news/indias-home-help-conundrum",
+          "publishedAt": "Apr 19, 2026"
+        },
+        {
+          "title": "Urban Company says InstaHelp burn will remain elevated as it prioritises scale",
+          "url": "https://retail.economictimes.indiatimes.com/news/e-commerce/e-tailing/urban-company-says-instahelp-burn-will-remain-elevated-as-it-prioritises-scale/131578423",
+          "publishedAt": "3 weeks ago"
+        },
+        {
+          "title": "What help-on-demand apps can do better to retain workers amidst price wars",
+          "url": "https://www.forbesindia.com/article/news/deep-dive/what-help-on-demand-apps-can-do-better-to-retain-workers-amidst-price-wars/2994673/1",
+          "publishedAt": "4 weeks ago"
+        },
+        {
+          "title": "Urban Company to host virtual analyst meet on June 30",
+          "url": "https://scanx.trade/stock-market-news/companies/urban-company-to-host-virtual-analyst-meet-on-june-30/44032111",
+          "publishedAt": "6 days ago"
+        },
+        {
+          "title": "Buy, Sell Or Hold: SBI, Suzlon, Pace Digitek, Zee Entertainment, Urban Company, Abbott Labs — Ask Profit",
+          "url": "https://www.ndtvprofit.com/markets/buy-sell-or-hold-sbi-suzlon-pace-digitek-zee-entertainment-urban-company-abbott-labs-ask-profit-11675350",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "Urban Company Limited Actuals & Estimates (NSE:URBANCO)",
+          "url": "https://www.tradingview.com/symbols/NSE-URBANCO/forecast-actuals-and-estimates/",
+          "publishedAt": "6 days ago"
+        },
+        {
+          "title": "Urban Company gains 7% on huge volume; stock up 45% from March low",
+          "url": "https://www.business-standard.com/markets/news/urban-company-gains-7-on-huge-volume-stock-up-45-from-march-low-126062200373_1.html",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "Urban Company backer Dharana Capital invests $24 mn in Mygate",
+          "url": "https://www.vccircle.com/urbancompany-backer-dharana-capital-invests-24-mn-in-mygate",
+          "publishedAt": "3 weeks ago"
+        },
+        {
+          "title": "Delhi woman's Urban Company AC service experience goes viral after angry post",
+          "url": "https://www.indiatoday.in/trending-news/story/delhi-woman-urban-company-ac-service-experience-goes-viral-after-angry-post-2929773-2026-06-19",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Urban Company’s Saudi ops move to Yammak following the closure of its subsidiary",
+          "url": "https://enterpriseam.com/mena-india/2026/06/03/urban-companys-saudi-ops-move-to-yammak-following-the-closure-of-its-subsidiary/",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "Pronto Defends Camera Use; Urban Company CEO Responds",
+          "url": "https://letsdatascience.com/news/pronto-defends-camera-use-urban-company-ceo-responds-65a0029a",
+          "publishedAt": "1 month ago"
+        }
+      ],
+      "founderMentions": [],
+      "appRanks": [
+        {
+          "platform": "ios",
+          "rank": null,
+          "rating": 4.77238,
+          "fetchedAt": "2026-07-02T22:09:25.848Z"
+        },
+        {
+          "platform": "android",
+          "rank": null,
+          "rating": 4.750254,
+          "fetchedAt": "2026-07-02T22:09:25.848Z"
+        }
+      ]
+    },
+    {
+      "slug": "mamaearth",
+      "news": [
+        {
+          "title": "Amazon Prime Day 2026 Beauty Deals: Best Offers From Maybelline, L’Oréal, Lakmé And Mamaearth",
+          "url": "https://www.news18.com/amp/lifestyle/beauty/amazon-prime-day-2026-beauty-deals-best-offers-from-maybelline-loreal-lakme-and-mamaearth-ws-l-10187117.html",
+          "publishedAt": "6 hours ago"
+        },
+        {
+          "title": "Mamaearth parent Honasa acquires 58% stake in Fluence Pharma for Rs 135 Cr",
+          "url": "https://entrackr.com/news/mamaearth-parent-honasa-acquires-58-stake-in-fluence-pharma-for-rs-135-cr-12066285",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "Mamaearth Enters 'Beauty-From-Within' Segment As Parent Honasa Acquires 58% In Nutraceuticals Firm",
+          "url": "https://www.ndtvprofit.com/business/honasa-consumer-enters-nutraceuticals-segment-with-acquisition-of-58-stake-in-fluence-pharma-11677225",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "Mamaearth Founder Ghazal Alagh Shares How She Lost 20 Kg Postpartum: '80% Is The Food You Eat'",
+          "url": "https://www.ndtv.com/lifestyle/mamaearth-founder-ghazal-alagh-shares-how-she-lost-20-kg-postpartum-80-is-the-food-you-eat-11675284",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "JSA advises Mamaearth on ₹135 crore majority stake acquisition in Fluence Pharma",
+          "url": "https://www.barandbench.com/dealstreet/jsa-advises-mamaearth-on-135-crore-majority-stake-acquisition-in-fluence-pharma",
+          "publishedAt": "1 day ago"
+        },
+        {
+          "title": "Mamaearth parent Honasa acquires 58% stake in Fluence Pharma, enters Rs 16,000-crore nutraceuticals market",
+          "url": "https://www.storyboard18.com/brand-marketing/honasa-consumer-buys-58-percent-stake-in-fluence-pharma-ws-l-102135.htm",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "How Mamaearth founder Ghazal Alagh lost 20 kg after childbirth: The postpartum diet and habits behind her transformation",
+          "url": "https://www.firstpost.com/lifestyle/how-mamaearth-founder-ghazal-alagh-lost-20-kg-after-childbirth-the-postpartum-diet-and-habits-behind-her-transformation-14025626.html",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "Sofina Ventures sells Rs 177 crore worth shares in Mamaearth parent company",
+          "url": "https://www.moneycontrol.com/news/business/markets/sofina-ventures-sells-rs-177-crore-worth-shares-in-mamaearth-parent-company-13959066.html",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "Mamaearth's Rs.135 Cr Fluence Pharma Acquisition: JSA Advises The Deal",
+          "url": "https://lawchakra.in/dealdocket/mamaearth-jsa-advises-deal/",
+          "publishedAt": "2 days ago"
+        },
+        {
+          "title": "Honasa delivers twice in a row",
+          "url": "https://themorningcontext.com/business/honasa-delivers-twice-in-a-row",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "Q4 FY26: Mamaearth owner’s net profit more than doubles",
+          "url": "https://www.thearcweb.com/article/honasa-q4-mamaearth-results-financials-fy26-beauty-personal-care-miBLHWcdGAVd3AOB",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "Honasa delivers twice in a row",
+          "url": "https://themorningcontext.com/business/honasa-delivers-twice-in-a-row",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "Sofina trims India exposure via Mamaearth stake sale, shares tracked for portfolio moves",
+          "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/sofina-trims-india-exposure-via-mamaearth-stake-sale-shares-tracked-for/69633525",
+          "publishedAt": "6 days ago"
+        },
+        {
+          "title": "Sofina Ventures offloads Rs 177 Cr worth stake in Mamaearth parent",
+          "url": "https://entrackr.com/news/sofina-ventures-offloads-rs-177-cr-worth-stake-in-mamaearth-parent-12107188",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "Mamaearth parent Honasa Consumer targets wider national footprint for Reginald Men after acquisition push",
+          "url": "https://www.storyboard18.com/brand-marketing/honasa-to-scale-reginald-men-as-broader-mens-grooming-brand-ws-l-99350.htm",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "Honasa Q4 Business Update: Mamaearth Boost Lifts Outlook; Goldman Sachs Raises Price Target",
+          "url": "https://www.ndtvprofit.com/markets/honasa-q4-business-update-mamaearth-boost-lifts-outlook-goldman-sachs-raises-price-target-11336784",
+          "publishedAt": "Apr 10, 2026"
+        },
+        {
+          "title": "Beauty is getting more clinical: Mamaearth and L'Oréal just showed why",
+          "url": "https://www.moneycontrol.com/news/business/beauty-is-getting-more-clinical-mamaearth-and-l-or-al-just-showed-why-13957481.html",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "Mamaearth parent stock hits 52-week high on strong FY31 growth outlook",
+          "url": "https://entrackr.com/news/mamaearth-parent-stock-hits-52-week-high-on-strong-fy31-growth-outlook-12026629",
+          "publishedAt": "3 weeks ago"
+        },
+        {
+          "title": "'OpEx, performance, brand spending to drive next phase of margin expansion': Mamaearth co-founder",
+          "url": "https://www.storyboard18.com/brand-marketing/honasa-targets-100-bps-annual-ebitda-gain-bets-on-the-derma-co-ws-l-99340.htm",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "Why Mamaearth (Honasa) Share Is Rising After Q4 FY26 Results: What Investors Need to Know",
+          "url": "https://www.indmoney.com/blog/stocks/Why-mamaearth-share-price-is-rising",
+          "publishedAt": "1 month ago"
+        }
+      ],
+      "founderMentions": [
+        {
+          "title": "From 83 kg to 63 kg: The postpartum diet that helped Ghazal Alagh shed 20 kg",
+          "url": "https://indianexpress.com/article/lifestyle/health/from-83-kg-to-63-kg-the-postpartum-diet-that-helped-ghazal-alagh-shed-20-kg-10727358/",
+          "publishedAt": "2 weeks ago"
+        },
+        {
+          "title": "Mamaearth Founder Ghazal Alagh Shares How She Lost 20 Kg Postpartum: '80% Is The Food You Eat'",
+          "url": "https://www.ndtv.com/lifestyle/mamaearth-founder-ghazal-alagh-shares-how-she-lost-20-kg-postpartum-80-is-the-food-you-eat-11675284",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "How Mamaearth founder Ghazal Alagh lost 20 kg after childbirth: The postpartum diet and habits behind her transformation",
+          "url": "https://www.firstpost.com/lifestyle/how-mamaearth-founder-ghazal-alagh-lost-20-kg-after-childbirth-the-postpartum-diet-and-habits-behind-her-transformation-14025626.html",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "Ghazal Alagh Founded Company Acquires 58% Stake In Nutraceutical Firm To Enter Rs 16,000 Crore Market",
+          "url": "https://insights.dsij.in/dsijarticledetail/ghazal-alagh-founded-company-acquires-58-stake-in-nutraceutical-firm-to-enter-rs-16000-crore-market-id021",
+          "publishedAt": "1 week ago"
+        },
+        {
+          "title": "Ghazal Alagh",
+          "url": "https://www.imdb.com/name/nm13234442/mediaviewer/rm2628904705/",
+          "publishedAt": "Apr 15, 2026"
+        }
+      ],
+      "appRanks": [
+        {
+          "platform": "ios",
+          "rank": null,
+          "rating": 4.67908,
+          "fetchedAt": "2026-07-02T22:09:30.370Z"
+        },
+        {
+          "platform": "android",
+          "rank": null,
+          "rating": 4.4820595,
+          "fetchedAt": "2026-07-02T22:09:30.370Z"
+        }
+      ]
+    },
+    {
+      "slug": "jupiter",
+      "news": [],
+      "founderMentions": [
+        {
+          "title": "Why India cannot build a world-class fintech champ yet",
+          "url": "https://m.economictimes.com/tech/catalysts/why-india-cannot-build-a-world-class-fintech-champ-yet/articleshow/131173869.cms",
+          "publishedAt": "1 month ago"
+        }
+      ],
+      "appRanks": [
+        {
+          "platform": "ios",
+          "rank": null,
+          "rating": 4.65838,
+          "fetchedAt": "2026-07-02T22:09:33.946Z"
+        },
+        {
+          "platform": "android",
+          "rank": null,
+          "rating": 4.3206463,
+          "fetchedAt": "2026-07-02T22:09:33.946Z"
+        }
+      ]
+    },
+    {
+      "slug": "khatabook",
+      "news": [
+        {
+          "title": "Khatabook - 2026 Funding Rounds & List of Investors",
+          "url": "https://tracxn.com/d/companies/khatabook/__eDRrLjOmNlhOqRHeaRojQ-Iogt3Ta9yfYViSlx6CPWI/funding-and-investors",
+          "publishedAt": "1 month ago"
+        }
+      ],
+      "founderMentions": [],
+      "appRanks": [
+        {
+          "platform": "ios",
+          "rank": null,
+          "rating": 4.71853,
+          "fetchedAt": "2026-07-02T22:09:39.274Z"
+        },
+        {
+          "platform": "android",
+          "rank": null,
+          "rating": 4.513653,
+          "fetchedAt": "2026-07-02T22:09:39.274Z"
+        }
+      ]
+    },
+    {
+      "slug": "bewakoof",
+      "news": [
+        {
+          "title": "Aditya Birla Fashion Unit Buys Additional 10.02% Stake In Bewakoof",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN42G0I9:0-aditya-birla-fashion-unit-buys-additional-10-02-stake-in-bewakoof/",
+          "publishedAt": "3 weeks ago"
+        },
+        {
+          "title": "ABFRL Boosts Ownership in Bewakoof to 99.03% via Additional 10.02% Stake Acquisition",
+          "url": "https://www.sahi.com/news/abfrl-boosts-ownership-in-bewakoof-to-99-03-via-additional-10-02-stake-acquisition-4002-PE1_COR",
+          "publishedAt": "3 weeks ago"
+        },
+        {
+          "title": "ABFRL Strengthens Ownership of Bewakoof; Raises Stake to 99%",
+          "url": "https://apparelresources.com/business-news/retail/abfrl-strengthens-ownership-bewakoof-raises-stake-99/",
+          "publishedAt": "3 weeks ago"
+        },
+        {
+          "title": "ABFRL unit TMRW raises Bewakoof stake to 99.03%",
+          "url": "https://scanx.trade/stock-market-news/companies/abfrl-unit-tmrw-increases-bewakoof-stake-to-99-03/42471583",
+          "publishedAt": "3 weeks ago"
+        }
+      ],
+      "founderMentions": [],
+      "appRanks": [
+        {
+          "platform": "ios",
+          "rank": null,
+          "rating": 4.60228,
+          "fetchedAt": "2026-07-02T22:09:43.361Z"
+        },
+        {
+          "platform": "android",
+          "rank": null,
+          "rating": 4.3558207,
+          "fetchedAt": "2026-07-02T22:09:43.361Z"
+        }
+      ]
+    },
+    {
+      "slug": "park-plus",
+      "news": [
+        {
+          "title": "Going to the beach? Read this before you put the car in park",
+          "url": "https://www.app.com/story/news/local/2026/04/07/jersey-shore-parking-fees-2026/89497736007/",
+          "publishedAt": "Apr 7, 2026"
+        },
+        {
+          "title": "Parking Near Villa Park on a Matchday: Best Options, Prices and How to Book",
+          "url": "https://footballgroundguide.com/news/parking-near-villa-park-on-a-matchday-best-options-prices-and-how-to-book.html",
+          "publishedAt": "Apr 26, 2026"
+        },
+        {
+          "title": "Great Falls Park • Virginia",
+          "url": "https://www.nps.gov/grfa/",
+          "publishedAt": "Apr 13, 2026"
+        }
+      ],
+      "founderMentions": [
+        {
+          "title": "Park+ looks to appoint CMO, plans to hire media agency for sharper brand push",
+          "url": "https://bestmediainfo.com/mediainfo/mediainfo-marketing/park-plus-looks-to-appoint-cmo-plans-to-hire-media-agency-for-sharper-brand-push-11712759",
+          "publishedAt": "Apr 10, 2026"
+        }
+      ],
+      "appRanks": [
+        {
+          "platform": "ios",
+          "rank": null,
+          "rating": 4.72574,
+          "fetchedAt": "2026-07-02T22:09:47.592Z"
+        },
+        {
+          "platform": "android",
+          "rank": null,
+          "rating": 4.5871806,
+          "fetchedAt": "2026-07-02T22:09:47.592Z"
+        }
+      ]
+    },
+    {
+      "slug": "teachmint",
+      "news": [
+        {
+          "title": "Teachmint - 2026 Latest Shareholding & Valuation",
+          "url": "https://tracxn.com/d/companies/teachmint/__2OhzJsaQqn1Rx--LmV-MYhMY7hVCfzgx9GyitF_ntU8/latest-shareholding",
+          "publishedAt": "1 month ago"
+        },
+        {
+          "title": "From multiple tools to one integrated device: Why India’s top institutions are switching to Teachmint X",
+          "url": "https://www.afaqs.com/news/advertorial/from-multiple-tools-to-one-integrated-device-why-indias-top-institutions-are-switching-to-teachmint-x-11775297",
+          "publishedAt": "Apr 28, 2026"
+        }
+      ],
+      "founderMentions": [],
+      "appRanks": [
+        {
+          "platform": "ios",
+          "rank": null,
+          "rating": 3.84164,
+          "fetchedAt": "2026-07-02T22:09:51.457Z"
+        },
+        {
+          "platform": "android",
+          "rank": null,
+          "rating": 4.481541,
+          "fetchedAt": "2026-07-02T22:09:51.457Z"
+        }
+      ]
+    },
+    {
+      "slug": "netmeds",
+      "news": [],
+      "founderMentions": [
+        {
+          "title": "Budget Speak By Netmeds Founder Pradeep Dadha: Five Ways In Which The Government Can Promote Entrepreneurship",
+          "url": "https://boldoutline.in/budget-speak-by-netmeds-founder-pradeep-dadha-five-ways-in-which-the-government-can-promote-entrepreneurship/",
+          "publishedAt": "Apr 21, 2026"
+        }
+      ],
+      "appRanks": [
+        {
+          "platform": "ios",
+          "rank": null,
+          "rating": 4.21413,
+          "fetchedAt": "2026-07-02T22:09:55.191Z"
+        },
+        {
+          "platform": "android",
+          "rank": null,
+          "rating": 4.3820176,
+          "fetchedAt": "2026-07-02T22:09:55.191Z"
+        }
+      ]
+    }
   ]
 }
