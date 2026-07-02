@@ -15,7 +15,7 @@ const PLATFORM_LABEL: Record<AppRank['platform'], string> = {
 export function RankSparkline({ ranks }: { ranks: AppRank[] | null }) {
   if (ranks === null) {
     return (
-      <p className="text-sm text-ec-glass-1/60">
+      <p className="text-sm text-tc-glass-1/60">
         &mdash; App-store data hasn&rsquo;t been fetched yet. It will appear
         after the next data refresh.
       </p>
@@ -24,7 +24,7 @@ export function RankSparkline({ ranks }: { ranks: AppRank[] | null }) {
 
   if (ranks.length === 0) {
     return (
-      <p className="text-sm text-ec-glass-1/60">
+      <p className="text-sm text-tc-glass-1/60">
         No app-store listing tracked for this company.
       </p>
     );
@@ -37,29 +37,29 @@ export function RankSparkline({ ranks }: { ranks: AppRank[] | null }) {
           key={r.platform}
           className="glass-card glass-sheen rounded-2xl px-5 py-4"
         >
-          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-ec-glass-1/60">
+          <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-tc-glass-1/60">
             {PLATFORM_LABEL[r.platform]}
           </p>
           <div className="mt-2 flex items-baseline gap-3">
-            <p className="text-3xl font-semibold tabular-nums tracking-tight text-ec-cream">
+            <p className="text-3xl font-semibold tabular-nums tracking-tight text-tc-cream">
               {r.rating !== null ? (
                 <>
-                  <span aria-hidden className="mr-1 text-xl text-ec-blue">
+                  <span aria-hidden className="mr-1 text-xl text-tc-blue">
                     &#9733;
                   </span>
                   {r.rating.toFixed(1)}
                 </>
               ) : (
-                <span className="text-ec-glass-1/50">&mdash;</span>
+                <span className="text-tc-glass-1/50">&mdash;</span>
               )}
             </p>
             {r.rank !== null && (
-              <p className="text-sm text-ec-glass-1/60">
+              <p className="text-sm text-tc-glass-1/60">
                 #{r.rank} in category
               </p>
             )}
           </div>
-          <p className="mt-2 text-xs text-ec-glass-1/40">
+          <p className="mt-2 text-xs text-tc-glass-1/40">
             {r.rating !== null || r.rank !== null
               ? 'Store rating'
               : 'No rating reported'}

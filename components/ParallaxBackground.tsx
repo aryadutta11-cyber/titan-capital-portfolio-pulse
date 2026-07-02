@@ -27,7 +27,7 @@ export function ParallaxBackground() {
   return (
     <div
       aria-hidden
-      className="pointer-events-none fixed inset-0 -z-10 overflow-hidden bg-gradient-to-b from-ec-navy via-ec-navy-deep to-black"
+      className="pointer-events-none fixed inset-0 -z-10 overflow-hidden bg-gradient-to-b from-tc-navy via-tc-navy-deep to-black"
     >
       {/* Far layer: aurora wash at the top + blueprint grid */}
       <motion.div style={{ y: yFar }} className="absolute inset-0">
@@ -43,14 +43,14 @@ export function ParallaxBackground() {
 
       {/* Mid layer: large drifting orbs */}
       <motion.div style={{ y: yMid }} className="absolute inset-0">
-        <div className="absolute left-[12%] top-[28%] h-[26rem] w-[26rem] rounded-full bg-ec-blue/12 blur-3xl" />
-        <div className="absolute right-[8%] top-[62%] h-[20rem] w-[20rem] rounded-full bg-ec-glass-2/10 blur-3xl" />
+        <div className="absolute left-[12%] top-[28%] h-[26rem] w-[26rem] rounded-full bg-tc-blue/12 blur-3xl" />
+        <div className="absolute right-[8%] top-[62%] h-[20rem] w-[20rem] rounded-full bg-tc-glass-2/10 blur-3xl" />
       </motion.div>
 
       {/* Near layer: smaller, brighter accents moving against the scroll */}
       <motion.div style={{ y: yNear }} className="absolute inset-0">
-        <div className="absolute right-[24%] top-[18%] h-40 w-40 rounded-full bg-ec-blue/15 blur-2xl" />
-        <div className="absolute bottom-[8%] left-[30%] h-56 w-56 rounded-full bg-ec-glass-1/8 blur-3xl" />
+        <div className="absolute right-[24%] top-[18%] h-40 w-40 rounded-full bg-tc-blue/15 blur-2xl" />
+        <div className="absolute bottom-[8%] left-[30%] h-56 w-56 rounded-full bg-tc-glass-1/8 blur-3xl" />
       </motion.div>
 
       {/* Vignette to keep edges dark and cards legible */}

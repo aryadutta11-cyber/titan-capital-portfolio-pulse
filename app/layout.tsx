@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elevation Portfolio Pulse",
+  title: "Titan Capital Portfolio Pulse",
   description:
-    "Public momentum signals across Elevation Capital's portfolio companies.",
+    "Public momentum signals across Titan Capital's portfolio companies.",
 };
 
 export default function RootLayout({

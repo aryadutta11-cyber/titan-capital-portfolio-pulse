@@ -40,7 +40,7 @@ function HeadlineList({
 }) {
   if (headlines === null) {
     return (
-      <p className="text-sm text-ec-glass-1/60">
+      <p className="text-sm text-tc-glass-1/60">
         &mdash; Not fetched yet. Headlines will appear after the next data
         refresh.
       </p>
@@ -48,7 +48,7 @@ function HeadlineList({
   }
 
   if (headlines.length === 0) {
-    return <p className="text-sm text-ec-glass-1/60">{emptyLabel}</p>;
+    return <p className="text-sm text-tc-glass-1/60">{emptyLabel}</p>;
   }
 
   return (
@@ -59,10 +59,10 @@ function HeadlineList({
             href={h.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="glass-card glass-sheen group flex items-baseline justify-between gap-4 rounded-2xl px-5 py-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ec-blue"
+            className="glass-card glass-sheen group flex items-baseline justify-between gap-4 rounded-2xl px-5 py-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-tc-blue"
           >
             <span>
-              <span className="block text-sm font-medium leading-snug text-ec-cream transition-colors group-hover:text-ec-glass-2">
+              <span className="block text-sm font-medium leading-snug text-tc-cream transition-colors group-hover:text-tc-glass-2">
                 {h.title}
               </span>
               {h.publishedAt && (() => {
@@ -70,7 +70,7 @@ function HeadlineList({
                 return (
                   <time
                     dateTime={iso ?? undefined}
-                    className="mt-1.5 block text-xs text-ec-glass-1/50"
+                    className="mt-1.5 block text-xs text-tc-glass-1/50"
                   >
                     {display}
                   </time>
@@ -79,7 +79,7 @@ function HeadlineList({
             </span>
             <span
               aria-hidden
-              className="shrink-0 text-sm text-ec-blue/70 transition-all duration-300 ease-out group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-ec-blue"
+              className="shrink-0 text-sm text-tc-blue/70 transition-all duration-300 ease-out group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-tc-blue"
             >
               &#8599;
             </span>
@@ -138,7 +138,7 @@ export function CompanyDetailView({
       <motion.div {...enter(0)}>
         <Link
           href="/"
-          className="group inline-flex items-center gap-1.5 rounded-lg text-sm font-medium text-ec-glass-1/60 transition-colors hover:text-ec-blue focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ec-blue"
+          className="group inline-flex items-center gap-1.5 rounded-lg text-sm font-medium text-tc-glass-1/60 transition-colors hover:text-tc-blue focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-tc-blue"
         >
           <span
             aria-hidden
@@ -154,7 +154,7 @@ export function CompanyDetailView({
         <div className="flex items-start justify-between gap-4">
           <div className="flex items-center gap-4">
             {/* Monogram roundel — same language as the dashboard cards */}
-            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-ec-glass-1/20 bg-gradient-to-br from-ec-blue/25 to-ec-blue/5 text-2xl font-semibold text-ec-glass-2 shadow-[inset_0_1px_0_rgba(235,241,250,0.15)]">
+            <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-tc-glass-1/20 bg-gradient-to-br from-tc-blue/25 to-tc-blue/5 text-2xl font-semibold text-tc-glass-2 shadow-[inset_0_1px_0_rgba(235,241,250,0.15)]">
               {company.name.charAt(0)}
             </div>
             <h1 className="text-gradient-brand text-4xl font-bold tracking-tight sm:text-5xl">
@@ -168,17 +168,17 @@ export function CompanyDetailView({
 
         <dl className="mt-6 flex flex-wrap items-baseline gap-x-8 gap-y-2 text-sm">
           <div className="flex items-baseline gap-2">
-            <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-ec-glass-1/50">
+            <dt className="text-xs font-semibold uppercase tracking-[0.18em] text-tc-glass-1/50">
               {company.founders.length > 1 ? 'Founders' : 'Founder'}
             </dt>
-            <dd className="font-medium text-ec-glass-2">
+            <dd className="font-medium text-tc-glass-2">
               {company.founders.join(', ')}
             </dd>
           </div>
-          <div className="flex items-baseline gap-2 text-ec-glass-1/50">
+          <div className="flex items-baseline gap-2 text-tc-glass-1/50">
             <dt>Last refreshed</dt>
             <dd>
-              <time dateTime={generatedAt} className="text-ec-glass-1/70">
+              <time dateTime={generatedAt} className="text-tc-glass-1/70">
                 {TIMESTAMP_FORMAT.format(new Date(generatedAt))} IST
               </time>
             </dd>
@@ -192,7 +192,7 @@ export function CompanyDetailView({
           className="mt-12"
           {...enter(0.16 + i * 0.08)}
         >
-          <h2 className="text-xs font-semibold uppercase tracking-[0.28em] text-ec-blue">
+          <h2 className="text-xs font-semibold uppercase tracking-[0.28em] text-tc-blue">
             {section.title}
           </h2>
           <div className="mt-4">{section.body}</div>
@@ -200,7 +200,7 @@ export function CompanyDetailView({
       ))}
 
       <motion.footer
-        className="mt-16 border-t border-ec-glass-1/10 pt-6 text-xs text-ec-glass-1/40"
+        className="mt-16 border-t border-tc-glass-1/10 pt-6 text-xs text-tc-glass-1/40"
         {...enter(0.16 + sections.length * 0.08)}
       >
         Signals are derived from public sources and refreshed on a schedule.
