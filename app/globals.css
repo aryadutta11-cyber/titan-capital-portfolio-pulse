@@ -1,34 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0d1b2a;
-  --foreground: #f4f2ed;
+  --background: #172d4f;
+  --foreground: #eeeadd;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-ec-navy: #0d1b2a;
-  --color-ec-navy-deep: #0F172A;
-  --color-ec-blue: #3283FF;
-  --color-ec-glass-1: #C3DAF8;
-  --color-ec-glass-2: #d6e6ff;
-  --color-ec-glass-3: #EBF1FA;
-  --color-ec-cream: #f4f2ed;
+  --color-tc-navy: #172d4f;
+  --color-tc-navy-deep: #0f1e35;
+  --color-tc-blue: #1890d7;
+  --color-tc-coral: #e1624b;
+  --color-tc-glass-1: #a8d4f0;
+  --color-tc-glass-2: #cfe8f7;
+  --color-tc-glass-3: #f3f0e6;
+  --color-tc-cream: #eeeadd;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
 body {
-  background-color: var(--color-ec-navy);
-  color: var(--color-ec-cream);
+  background-color: var(--color-tc-navy);
+  color: var(--color-tc-cream);
   font-family: var(--font-sans), system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 ::selection {
-  background: rgba(50, 131, 255, 0.35);
-  color: #EBF1FA;
+  background: rgba(24, 144, 215, 0.35);
+  color: #f3f0e6;
 }
 
 /* ---- Glassmorphism ---- */
@@ -37,16 +38,16 @@ body {
   position: relative;
   background: linear-gradient(
     135deg,
-    rgba(195, 218, 248, 0.09) 0%,
-    rgba(214, 230, 255, 0.04) 55%,
-    rgba(50, 131, 255, 0.05) 100%
+    rgba(168, 212, 240, 0.09) 0%,
+    rgba(207, 232, 247, 0.04) 55%,
+    rgba(24, 144, 215, 0.05) 100%
   );
-  border: 1px solid rgba(195, 218, 248, 0.16);
+  border: 1px solid rgba(168, 212, 240, 0.16);
   backdrop-filter: blur(18px) saturate(140%);
   -webkit-backdrop-filter: blur(18px) saturate(140%);
   box-shadow:
     0 8px 32px rgba(0, 0, 0, 0.28),
-    inset 0 1px 0 rgba(235, 241, 250, 0.10);
+    inset 0 1px 0 rgba(243, 240, 230, 0.10);
   transition:
     border-color 0.35s ease,
     box-shadow 0.35s ease,
@@ -54,17 +55,17 @@ body {
 }
 
 .glass-card:hover {
-  border-color: rgba(50, 131, 255, 0.45);
+  border-color: rgba(24, 144, 215, 0.45);
   background: linear-gradient(
     135deg,
-    rgba(195, 218, 248, 0.13) 0%,
-    rgba(214, 230, 255, 0.06) 55%,
-    rgba(50, 131, 255, 0.10) 100%
+    rgba(168, 212, 240, 0.13) 0%,
+    rgba(207, 232, 247, 0.06) 55%,
+    rgba(24, 144, 215, 0.10) 100%
   );
   box-shadow:
     0 16px 48px rgba(0, 0, 0, 0.35),
-    0 0 44px rgba(50, 131, 255, 0.18),
-    inset 0 1px 0 rgba(235, 241, 250, 0.14);
+    0 0 44px rgba(24, 144, 215, 0.18),
+    inset 0 1px 0 rgba(243, 240, 230, 0.14);
 }
 
 /* Sheen that sweeps across a card on hover */
@@ -76,8 +77,8 @@ body {
   background: linear-gradient(
     115deg,
     transparent 30%,
-    rgba(235, 241, 250, 0.07) 48%,
-    rgba(235, 241, 250, 0.12) 52%,
+    rgba(243, 240, 230, 0.07) 48%,
+    rgba(243, 240, 230, 0.12) 52%,
     transparent 70%
   );
   background-size: 260% 100%;
@@ -95,8 +96,8 @@ body {
 /* Faint blueprint grid used by the parallax background */
 .bg-grid-faint {
   background-image:
-    linear-gradient(rgba(195, 218, 248, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(195, 218, 248, 0.045) 1px, transparent 1px);
+    linear-gradient(rgba(168, 212, 240, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(168, 212, 240, 0.045) 1px, transparent 1px);
   background-size: 56px 56px;
   mask-image: radial-gradient(ellipse 90% 70% at 50% 20%, black 30%, transparent 78%);
   -webkit-mask-image: radial-gradient(ellipse 90% 70% at 50% 20%, black 30%, transparent 78%);
@@ -104,7 +105,7 @@ body {
 
 /* Gradient headline text */
 .text-gradient-brand {
-  background: linear-gradient(100deg, #f4f2ed 20%, #C3DAF8 55%, #3283FF 100%);
+  background: linear-gradient(100deg, #eeeadd 20%, #a8d4f0 55%, #1890d7 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
