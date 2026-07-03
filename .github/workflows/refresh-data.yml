@@ -1,0 +1,38 @@
+name: Refresh portfolio data
+
+on:
+  schedule:
+    # 00:30 UTC = 06:00 IST, every Monday
+    - cron: '30 0 * * 1'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - run: npm ci
+
+      - run: npm run refresh-data
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/portfolio.json; then
+            echo "No changes to portfolio data."
+            exit 0
+          fi
+          git add data/portfolio.json
+          git commit -m "chore: weekly portfolio data refresh"
+          git push
